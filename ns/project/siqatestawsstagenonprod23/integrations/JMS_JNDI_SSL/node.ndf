@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">testuser</value>
-    <value name="createdDate">1753271930368</value>
-    <value name="lastModifiedDate">1753271930368</value>
+    <value name="lastModifiedBy">kusi_awsstage1</value>
+    <value name="lastModifiedDate">1753272408821</value>
     <value name="displayName">JMS_JNDI_SSL</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,9 +59,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">publisher:publisher</value>
-          <value name="serviceName">publisher:publisher</value>
-          <value name="displayName">publisher</value>
+          <value name="description">jms2wayssl_publisher:jms2wayssl_publisher</value>
+          <value name="serviceName">jms2wayssl_publisher:jms2wayssl_publisher</value>
+          <value name="displayName">jms2wayssl_publisher</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
@@ -70,17 +69,14 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
+  <value name="auditoption">2</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
   <record name="auditsettings" javaclass="com.wm.util.Values">

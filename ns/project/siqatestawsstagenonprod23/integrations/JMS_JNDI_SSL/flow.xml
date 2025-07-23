@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="JMS2waySSL" SERVICE="publisher:publisher">
+<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
