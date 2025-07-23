@@ -17,3 +17,8 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: SSL_JDBC_Test
+  gitServerName: kusiAWSStage1
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: Rajni25Aug
+  gitBranch: main
