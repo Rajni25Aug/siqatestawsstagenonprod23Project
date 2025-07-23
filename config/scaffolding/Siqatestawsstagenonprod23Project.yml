@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: JMS2waySSL
+  gitServerName: kusiAWSStage1
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: Rajni25Aug
+  gitBranch: main
