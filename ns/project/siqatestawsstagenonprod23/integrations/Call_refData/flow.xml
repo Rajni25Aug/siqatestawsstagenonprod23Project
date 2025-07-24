@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Reference Data" SERVICE="project.siqatestawsstagenonprod23.referencedata:refData">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>
