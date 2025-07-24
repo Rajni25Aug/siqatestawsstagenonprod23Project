@@ -26,6 +26,7 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
@@ -176,49 +177,33 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 configurationVariables:
+  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.databaseName
+  : MYSQL_DATABASE
+  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.dbType
+  : MySQL
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.trustStore
   : ""
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.poolIncrementSize
-  : "1"
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.portNumber
   : "3306"
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.transactionType
   : NO_TRANSACTION
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.expireTimeout
-  : "1000"
+  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.poolable
+  : "false"
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.networkProtocol
   : tcp
+  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.keyStore
+  : ""
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.otherProperties
-  : loginTimeout=60;driverType=thin;
+  : loginTimeout=60;driverType=2;
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.password
   : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.serverName
   : 9.46.196.248
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.user
-  : siqatest
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.maximumPoolSize
-  : "10"
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.databaseName
-  : MYSQL_DATABASE
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.dbType
-  : MySQL
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.minimumPoolSize
-  : "1"
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.poolable
-  : "false"
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.keyStore
-  : ""
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.heartBeatInterval
-  : "0"
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionEnabled
   : "false"
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.startupRetryCount
-  : "0"
+  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.user
+  : siqatest
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.driverType
   : driverTest
-  ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.blockingTimeout
-  : "1000"
