@@ -196,7 +196,7 @@ configurationVariables:
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.keyStore
   : ""
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.otherProperties
-  : loginTimeout=60;driverType=2;
+  : loginTimeout=60;driverType=thin;
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.password
   : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
   ? artConnection.Siqatestawsstagenonprod23Project.project.siqatestawsstagenonprod23.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionSettings.serverName
